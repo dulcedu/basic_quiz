@@ -1,5 +1,7 @@
 # Basic Quiz app
 
+This project is part of 
+
 Basic quiz app
 
 ## Basic setup
@@ -39,7 +41,7 @@ For the next step I use Bulma's [Starter template](https://bulma.io/documentatio
 
 > Copy the "Starter template"
 
-```htmlmixed
+```htmlmixed=
 <!DOCTYPE html>
 <html>
   <head>
@@ -62,3 +64,23 @@ For the next step I use Bulma's [Starter template](https://bulma.io/documentatio
   </body>
 </html>
 ```
+
+## Create dev script 
+
+In the `package.json` file add the following script
+
+```json
+...
+"scripts": {
+    "dev": "lite-server"
+}
+...
+```
+
+Open your terminal and run it:
+
+```bash
+npm run dev
+```
+
+![](https://i.imgur.com/DayBXRe.png)
