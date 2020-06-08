@@ -24,7 +24,7 @@
         <div class="level-item">
             <div>
               <p class="heading">Hits</p>
-              <p class="title">Total Hits</p>
+              <p class="title">{{ hits }}/{{ questions.length }}</p>
             </div>
         </div>
     </div>
@@ -62,8 +62,8 @@
   
   <div class="steps-content column is-mobile">
     <!-- Your questions here -->
-    <div class="step-content column is-6 is-offset-3 is-active">
-      <h2 class="title">Question # 1</h2>
+    <div v-for="(question, index) in questions" class="step-content column is-6 is-offset-3 is-active">
+      <h2 class="title">{{question.question}}</h2>
       <div class="tile is-ancestor">
         <div class="tile is-12">
           <div class="tile box option-box answer">

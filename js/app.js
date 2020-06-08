@@ -6,7 +6,7 @@ var app = new Vue({
         questions:[
             {
                 "id": 1,
-                "question": "What does CSS stand for?",
+                "question": "Who is Satoshi Nakamoto?",
                 "nextId": 2,
                 "previousId": null,
                 "answer": "c",
