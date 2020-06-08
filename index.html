@@ -64,11 +64,11 @@
     <!-- Your questions here -->
     <div v-for="(question, index) in questions" class="step-content column is-6 is-offset-3 is-active">
       <h2 class="title">{{question.question}}</h2>
-      <div class="tile is-ancestor">
+      <div v-for="(value, key) in question.options" class="tile is-ancestor">
         <div class="tile is-12">
-          <div class="tile box option-box answer">
-            <p class="subtitle">a)</p>
-            <p>Option 1</p>
+          <div class="tile box option-box answer" v-on:click.self="selectOption" :data-index="index" :data-key="key" :data-value="value"> 
+            <p class="subtitle"> {{ key }})</p>
+            <p>{{ value }}</p>
           </div>
         </div>
       </div>
