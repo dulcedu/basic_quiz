@@ -1,0 +1,28 @@
+div.answer:hover {
+    background-color: rgb(14, 140, 243);
+}
+
+h2.question {
+    margin-bottom: 10% !important;
+}
+
+.right-answer {
+    background-color: mediumaquamarine;
+}
+
+.wrong-answer {
+    background-color: orangered;
+}
+
+nav.level {
+    padding: 0 10%;
+}
+
+div.modal-content {
+    padding: 10% 0;
+    background-color: powderblue;
+}
+
+div.modal-content button {
+    margin-top: 5%;
+}
