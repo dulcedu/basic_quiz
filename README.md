@@ -1,13 +1,14 @@
 # Basic Quiz app
 
-This project is part of 
+This project is part of bigget project named ¨ App to dApp. Have fun by porting apps to web3, by using RSK smart platform, RNS and decentralize storage. 
+Check the tutorial here [TBD].
 
-Basic quiz app
+
 
 ## Basic setup
-# Quiz app in JS for portfolio.
+# A Quiz app  in JS is something fun to code and really good for starter portfolio. I hope you find this tutorial usefull and then try decentralize technologies. 
 
-The quiz app is a common 
+
 
 Let's create the `package.json` with the following
 
@@ -449,7 +450,7 @@ Below to step component, add the following code:
 ```
 
  
- Master Source: https://github.com/driverInside/basic-quiz/blob/master/js/app.js
+ 
  
  
  
